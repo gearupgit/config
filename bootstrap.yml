@@ -1,0 +1,13 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/school?useunicode=true&characterEncoding=utf-8
+    username: root
+    password: 199200
+management:
+  security:
+    enabled: false
